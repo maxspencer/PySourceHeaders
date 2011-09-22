@@ -1,3 +1,6 @@
 ===============
 PySourceHeaders
 ===============
+
+pySourceHeaders is a helpful module for writing, checking and removing the
+discalimers and other headers often found at the top of your source code files.
