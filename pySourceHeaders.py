@@ -24,7 +24,7 @@ def _commented_header(header, comment_start, comment_end = ''):
 	'''
 	commented_header = ''
 	
-	for line in header.split('\n'):
+	for line in header.splitlines():
 		commented_header += comment_start + ' ' + line + comment_end + '\n'
 		
 	return commented_header
